@@ -1,3 +1,5 @@
+#CURRENT GOAL: Integrate OpenAI API to allow for ChatGPT use of the bot in Telegram.
+
 
 import logging
 from telegram import Update
@@ -23,3 +25,4 @@ if __name__ == '__main__':
     application.add_handler(start_handler)
 
     application.run_polling()
+
